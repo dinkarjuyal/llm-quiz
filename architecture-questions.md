@@ -1,4 +1,4 @@
-# LLM Architecture & ML Intuition Quiz 
+# LLM Architecture Quiz 
 
 ## Section 1: Architectural Intuitions and Differences
 
@@ -45,12 +45,13 @@ In the RWKV architecture, the model computes a weighted moving average over toke
 ## Section 2: Mathematical Reasoning
 
 ### Q5.
-Suppose a Transformer attention layer with dimensionality \( d \) has query, key, and value projections \( W_Q, W_K, W_V \in \mathbb{R}^{d \times d} \). Show that softmax attention is invariant to adding the same constant vector \( c \in \mathbb{R}^d \) to all key vectors.
+Suppose a Transformer attention layer with dimensionality `d` has query, key, and value projections `W_Q`, `W_K`, `W_V` in `R^{d x d}`. Show that softmax attention is invariant to adding the same constant vector `c in R^d` to all key vectors.
+
 
 ---
 
 ### Q6.
-Consider an SSM with transition matrix \( A \in \mathbb{R}^{d \times d} \). Under what conditions does the output of the SSM converge to a stationary distribution, and how does this relate to model stability?
+Consider an SSM with transition matrix `A in R^{d x d}`. Under what conditions does the output of the SSM converge to a stationary distribution, and how does this relate to model stability?
 
 ---
 
